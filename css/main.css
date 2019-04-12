@@ -1,0 +1,49 @@
+/*=========== 00. RESET CSS ================ */	
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:before, :after  {
+    box-sizing: border-box;
+}
+a, span, :before, :after { 
+    display: inline-block; 
+}
+:focus {
+    outline: none;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+img {
+    max-width: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.285;
+    color: #555;
+    font-weight: 400;
+    /* min-height: 2000px; */
+    overflow-x: hidden;
+    background-image: url("../images/bg-img.png");
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+img{
+    width: 80vw;
+}
+video{
+    width: 80vw;
+}
